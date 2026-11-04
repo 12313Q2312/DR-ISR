@@ -1,0 +1,29 @@
+{
+  "source_repository": "https://github.com/NewT123-WM/Task_based_neurons",
+  "source_files": {
+    "epsilon_low.h5": "3974aeb39806b614a5e1a2a549909d954098529c28d814802a944ff19eefb8b3",
+    "epsilon_high.h5": "09bd7419df516319d63993010351e6ddbf33378c5bb910d06c783b3147fd248c"
+  },
+  "files": {
+    "epsilon_low_no1.csv": "302e76049758355f401d1e0a524b91fb799c75ebbf2a29a8ce86f70ee5e12214",
+    "epsilon_low_no10.csv": "54bcd7c96c4f76483053fd3b4d8999d94e4867948fa3864c594fa98fc4fff10b",
+    "epsilon_low_no2.csv": "093a47b6da29f3313790cca4b1e99ba48545bb818c872b0119aeb83c8e452f3a",
+    "epsilon_low_no3.csv": "ec6f38ce5a28f11c03572f755896f0a136ed07e1aa008e8a01f52ca4e37bd728",
+    "epsilon_low_no4.csv": "a47ebfc318ea6f6efb6789ffefef442057d4290eecc282e5d99b8d404ca84051",
+    "epsilon_low_no5.csv": "fc6caf8707b552e136cfc6e0a8bb3ef176c0cb165755e9433d8f6bfa6601126b",
+    "epsilon_low_no6.csv": "e384d27b1b4c921faa8be15c0155f04c84ddac8722e9bfb5b90a6e543a5b0599",
+    "epsilon_low_no7.csv": "e0b1bec510d663a47f779f8b08337413fe7eae468305e9dd898800803f9cd678",
+    "epsilon_low_no8.csv": "3837d4a01e41597f8a1e2d255461bfab0e1de557d4321267d8602fc221bacaa6",
+    "epsilon_low_no9.csv": "827d24ef33c24e180a4a1dd92a93bdaad958108d8d44ca310bc7e43e4f5a7a62",
+    "epsilon_high_no1.csv": "25d53b47315640b42dae8824f8d4d60f6f2bc2b55472fc897f63d220f07df5d7",
+    "epsilon_high_no10.csv": "cec3062ce93f1f9107999f6a966faccf1fc791e42a5bc8c8f8d82eec285fa610",
+    "epsilon_high_no2.csv": "61417de42203fd84d3f5cb834d9b638b34ccea3cae10beb83294908551433410",
+    "epsilon_high_no3.csv": "7d090fcb84d5d7bafcb0494323b54e38ae33a03e375bc09c988cf1db77ff87cb",
+    "epsilon_high_no4.csv": "159f411e949f1d88019430800e887669cea27f3a96a41cdafc1db8cd7ff435e9",
+    "epsilon_high_no5.csv": "c76aeae55846ea640690d0e6e73b6c27c8e6b41f4d1d63e67c93de4bdabc2dde",
+    "epsilon_high_no6.csv": "e059f31f0717ef1be9d00a223ac2436e683c1382882dfbad494d696490865519",
+    "epsilon_high_no7.csv": "5abbe2e0c86351f2988d84b6df21ef20cf4086b63dae1b86122de37ec047516a",
+    "epsilon_high_no8.csv": "0a02c153d00db88fb851a6baa485ae62614d91055685f2aafe5a093979d2f087",
+    "epsilon_high_no9.csv": "53d2e2ca3e39b9d8c2f98eee0a90ab991e4fd520ea7307f42e30f145811073a9"
+  }
+}

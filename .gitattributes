@@ -1,3 +1,4 @@
 * text=auto eol=lf
 evidence/** -text
+neural_data/** -text
 *.png binary

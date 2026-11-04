@@ -1,0 +1,17 @@
+{
+  "datasets": ["epsilon_low", "epsilon_high"],
+  "groups": ["no1", "no2", "no3", "no4", "no5", "no6", "no7", "no8", "no9", "no10"],
+  "seeds": [10, 20, 30, 40, 50],
+  "methods": ["tn_vsr", "tn_dr", "kan", "mlp"],
+  "split_seed": 20261104,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "parameter_cap": 256,
+  "training_steps": 800,
+  "checkpoint_every": 25,
+  "learning_rate": 0.01,
+  "threads": 2,
+  "grid_size": 5,
+  "spline_order": 3,
+  "search": {"budget": 1500, "population": 48, "max_degree": 8}
+}

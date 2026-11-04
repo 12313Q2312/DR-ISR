@@ -1,0 +1,8 @@
+{
+  "datasets": ["epsilon_low"], "groups": ["no1"], "seeds": [10, 20],
+  "methods": ["tn_vsr", "tn_dr", "kan", "mlp"],
+  "split_seed": 20261104, "train_fraction": 0.6, "validation_fraction": 0.2,
+  "parameter_cap": 256, "training_steps": 20, "checkpoint_every": 5,
+  "learning_rate": 0.01, "threads": 2, "grid_size": 5, "spline_order": 3,
+  "search": {"budget": 120, "population": 16, "max_degree": 8}
+}

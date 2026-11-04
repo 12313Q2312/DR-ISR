@@ -1,0 +1,6 @@
+# Python 3.10. Existing G:/Task_based_neurons/.venv already satisfies these.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==1.24.4
+torch==1.13.1+cpu
+# Only needed to import original HDF5; archived CSV runs do not need it.
+h5py==3.8.0

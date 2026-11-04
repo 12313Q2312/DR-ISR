@@ -1,0 +1,67 @@
+{
+  "started_utc": "2026-11-04T13:40:43.164554+00:00",
+  "config": {
+    "datasets": [
+      "epsilon_low",
+      "epsilon_high"
+    ],
+    "groups": [
+      "no1",
+      "no2",
+      "no3",
+      "no4",
+      "no5",
+      "no6",
+      "no7",
+      "no8",
+      "no9",
+      "no10"
+    ],
+    "seeds": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "methods": [
+      "tn_vsr",
+      "tn_dr",
+      "kan",
+      "mlp"
+    ],
+    "split_seed": 20261104,
+    "train_fraction": 0.6,
+    "validation_fraction": 0.2,
+    "parameter_cap": 256,
+    "training_steps": 800,
+    "checkpoint_every": 25,
+    "learning_rate": 0.01,
+    "threads": 2,
+    "grid_size": 5,
+    "spline_order": 3,
+    "search": {
+      "budget": 1500,
+      "population": 48,
+      "max_degree": 8
+    }
+  },
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "1.24.4",
+  "torch": "1.13.1+cpu",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "device": "cpu",
+  "git_commit": "ca6534f22e8cebc169b12f1a880504d8922f4f07",
+  "git_dirty": "",
+  "sources": {
+    "neural/experiment.py": "dbd4a81f7d1dd5d2a6fa27f6a9098673716fab8acc209174e2a0a4fa78c221ef",
+    "neural/models.py": "44d82c990cf3a08f4918ec1a9648a3859fec8ae17f69494709b49d4b5f0d8c9a",
+    "neural/vector_gp.py": "348d0a25bb7bb51056b4e9c406c13b9c7d814ecffdc27105f1de000677ccf540",
+    "neural/__init__.py": "7c5594f5956118cb2e3285f605cd2933911eb157d7fac5a7d05f91c16fc3b2be",
+    "neural/vendor/efficient_kan.py": "c2b984359fe483640fcc2313570bbbd2128eede99bdbf0fa586ec8e0e1a1ecb7",
+    "neural/vendor/__init__.py": "4683633348467e6ade78f8d59c8d28666dc49001b8919ece362fff6ccc3604fb",
+    "run_neural.py": "59c8fc746e791870481b7452225e229a260a057f973fea109a8790167b8b895d"
+  },
+  "timing": "Search + model construction + training (including validation checkpoints); excludes shared data preparation and final holdout inference",
+  "finished_utc": "2026-11-04T13:54:39.717208+00:00"
+}

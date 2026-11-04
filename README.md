@@ -2,9 +2,33 @@
 
 **Data- and Residual-Guided Incremental Symbolic Regression — 科研想法验证原型。**
 
-当前交付：普通表达式树 GP、残差引导子树交叉、置乱残差对照；相同算子、数据、初始种群和显式求值预算。**这是最小实验，不是已经证明有效的新算法，也不是完整的增量符号回归/神经网络系统。**
+当前包含两部分：v0.1 的表达式树 GP 搜索机制对照，以及 v0.2 的受控 TN / KAN 端到端实验。**项目用于验证科研假设，不预设残差引导有效；尚未实现完整的自适应文法和动态记忆系统。**
 
-## 本次验收与实际结果
+## v0.2：端到端 TN / KAN 实验
+
+新增入口 `run_neural.py`：公式搜索 → 多项式神经元参数化 → 网络训练 → 独立测试；比较 TN-VSR（受控复现）、TN-DR、B-spline KAN（efficient-kan）和 MLP。使用作者 20 组合成数据、5 个种子，共 400 次训练。方法边界、固定配置与计费规则见 [神经网络实验协议](docs/neural_protocol.md)。这不是论文 16 个真实数据集的完整复现。
+
+**400 次训练与 1200 项模型误差回放已完成。** TN-DR 对 KAN：低噪声 14 胜/36 负，高噪声 40 胜/10 负；TN-DR 对 TN-VSR 合计 33 胜/42 平/25 负。结果不支持稳定的整体改进，所有种子、模型权重和失败模式均保留。
+
+- [中文神经网络验收报告](docs/neural_acceptance_zh.md)
+- [全部端到端实测结果](evidence/neural-v1/report.md)
+- [固定配置与环境、源码指纹](evidence/neural-v1/manifest.json)
+- [测试误差图](evidence/neural-v1/test_errors.png)与[计算代价图](evidence/neural-v1/cost_and_capacity.png)
+
+本机可复用已有 Python 3.10 / PyTorch 1.13.1 环境，无需安装：
+
+```powershell
+& 'G:\Task_based_neurons\.venv\Scripts\python.exe' run_neural.py
+```
+
+其他电脑：在 Python 3.10 环境安装 `requirements-neural.txt`，再运行 `python run_neural.py`。此环境与下面 GP 演示使用的 Python 3.14 环境分开；无需执行 `pip install .`。作者数据已按来源和哈希归档在 `neural_data/`；原始 G 盘项目不修改。结果默认写入新的 `results/neural-时间戳` 目录。
+
+```powershell
+python run_neural.py --config configs/neural_smoke.json
+python verify_neural.py evidence/neural-v1
+```
+
+## v0.1：搜索机制实验
 
 已完成 **150 次**主实验（5 任务 × 10 种子 × 3 组），每次 3000 个计费求值单位。残差引导对普通 GP 的成对测试误差为 **11 胜 / 14 平 / 25 负**，本版**未显示整体优势**。不根据结果删掉失败种子。
 
