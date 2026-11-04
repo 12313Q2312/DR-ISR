@@ -13,7 +13,7 @@
 - [下载后可直接打开的离线演示](evidence/benchmark-v1/demo.html)（GitHub 文件页面显示源码，下载后用浏览器打开）
 - [普通 GP 基线试验](evidence/baseline-pilot-v1/report.md)
 
-复核保存结果：`python verify_evidence.py evidence/benchmark-v1`。源码和实验均由 AI 协助生成，需结合报告中的局限解释；本地测试通过不代表 GitHub CI 已经运行。
+复核保存结果：`python verify_evidence.py evidence/benchmark-v1`。源码和实验均由 AI 协助生成，需结合报告中的局限解释。[GitHub Linux 自动测试与快速实验已通过](https://github.com/12313Q2312/DR-ISR/actions/runs/41836393020)。
 
 ## 一键运行
 
