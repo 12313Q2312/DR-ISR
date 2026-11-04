@@ -1,0 +1,7 @@
+{
+  "tasks": ["polynomial", "additive", "interaction", "composition", "noisy_additive"],
+  "methods": ["gp", "residual_gp", "shuffled_gp"],
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "data": {"seed": 20261104, "n_train": 128, "n_test": 512},
+  "gp": {"budget": 3000, "population": 64}
+}

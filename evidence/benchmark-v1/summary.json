@@ -1,0 +1,1146 @@
+{
+  "groups": [
+    {
+      "task": "polynomial",
+      "method": "gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 3.110383031530728e-33,
+        "median": 0.00013289031915268546,
+        "q3": 0.0016261504608604091
+      },
+      "test_mse": {
+        "q1": 6.238188381667454e-33,
+        "median": 0.0001299695993394684,
+        "q3": 0.001576103137192524
+      },
+      "test_rmse": {
+        "q1": 7.866578108026794e-17,
+        "median": 0.011400114219566986,
+        "q3": 0.03884440219606626
+      },
+      "extrap_mse": {
+        "q1": 3.5810259903450167e-31,
+        "median": 0.0016199363967115557,
+        "q3": 8.72880125316211
+      },
+      "elapsed_seconds": {
+        "q1": 0.3308044499999596,
+        "median": 0.3692457499998909,
+        "q3": 0.5247020000002749
+      },
+      "fitness_evaluations": {
+        "q1": 3000.0,
+        "median": 3000.0,
+        "q3": 3000.0
+      },
+      "semantic_probes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "context_passes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "node_sample_evaluations": {
+        "q1": 3353984.0,
+        "median": 3833024.0,
+        "q3": 4613984.0
+      },
+      "nodes": {
+        "q1": 9.0,
+        "median": 10.0,
+        "q3": 14.5
+      },
+      "improving_offspring": {
+        "q1": 31.75,
+        "median": 37.5,
+        "q3": 39.0
+      },
+      "duplicate_offspring": {
+        "q1": 689.5,
+        "median": 818.5,
+        "q3": 892.25
+      },
+      "guidance_seconds": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      }
+    },
+    {
+      "task": "polynomial",
+      "method": "residual_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 3.7081204395559224e-33,
+        "median": 0.0002930220189015264,
+        "q3": 0.008890809906618388
+      },
+      "test_mse": {
+        "q1": 7.15182517983788e-33,
+        "median": 0.00022820289479966166,
+        "q3": 0.00836273758260643
+      },
+      "test_rmse": {
+        "q1": 8.323248823696707e-17,
+        "median": 0.010681827905364887,
+        "q3": 0.08975817940615555
+      },
+      "extrap_mse": {
+        "q1": 3.7707300898671594e-31,
+        "median": 1.614886132613961,
+        "q3": 8.069631356955055
+      },
+      "elapsed_seconds": {
+        "q1": 0.18822129999989556,
+        "median": 0.23362494999969385,
+        "q3": 0.3073997750000217
+      },
+      "fitness_evaluations": {
+        "q1": 675.0,
+        "median": 680.0,
+        "q3": 685.0
+      },
+      "semantic_probes": {
+        "q1": 1852.0,
+        "median": 1856.0,
+        "q3": 1860.0
+      },
+      "context_passes": {
+        "q1": 463.0,
+        "median": 464.0,
+        "q3": 465.0
+      },
+      "node_sample_evaluations": {
+        "q1": 1825408.0,
+        "median": 1995904.0,
+        "q3": 2380960.0
+      },
+      "nodes": {
+        "q1": 9.0,
+        "median": 11.0,
+        "q3": 15.0
+      },
+      "improving_offspring": {
+        "q1": 27.5,
+        "median": 31.5,
+        "q3": 49.5
+      },
+      "duplicate_offspring": {
+        "q1": 247.5,
+        "median": 269.5,
+        "q3": 308.25
+      },
+      "guidance_seconds": {
+        "q1": 0.13846192499806875,
+        "median": 0.1780703999945672,
+        "q3": 0.24408324999660636
+      }
+    },
+    {
+      "task": "polynomial",
+      "method": "shuffled_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.00951467430600059,
+        "median": 0.030982653074679515,
+        "q3": 0.04104756910657699
+      },
+      "test_mse": {
+        "q1": 0.008694961972535841,
+        "median": 0.03233537874318631,
+        "q3": 0.04144840386884172
+      },
+      "test_rmse": {
+        "q1": 0.09067329503792104,
+        "median": 0.17981849661558713,
+        "q3": 0.20322742053007498
+      },
+      "extrap_mse": {
+        "q1": 4.216292326924351,
+        "median": 9.813158616543056,
+        "q3": 17.4375663075378
+      },
+      "elapsed_seconds": {
+        "q1": 0.17318215000011605,
+        "median": 0.20028024999987792,
+        "q3": 0.2760911750001469
+      },
+      "fitness_evaluations": {
+        "q1": 681.5,
+        "median": 688.0,
+        "q3": 695.75
+      },
+      "semantic_probes": {
+        "q1": 1843.25,
+        "median": 1849.5,
+        "q3": 1854.5
+      },
+      "context_passes": {
+        "q1": 461.0,
+        "median": 462.5,
+        "q3": 464.0
+      },
+      "node_sample_evaluations": {
+        "q1": 1681600.0,
+        "median": 1912256.0,
+        "q3": 2296704.0
+      },
+      "nodes": {
+        "q1": 8.25,
+        "median": 11.5,
+        "q3": 14.0
+      },
+      "improving_offspring": {
+        "q1": 20.25,
+        "median": 24.5,
+        "q3": 26.0
+      },
+      "duplicate_offspring": {
+        "q1": 229.25,
+        "median": 273.5,
+        "q3": 294.0
+      },
+      "guidance_seconds": {
+        "q1": 0.12424777499859374,
+        "median": 0.14905460000522908,
+        "q3": 0.21601875000010295
+      }
+    },
+    {
+      "task": "additive",
+      "method": "gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 2.8297337552719066e-33,
+        "median": 0.010067589341121319,
+        "q3": 0.07372196162066318
+      },
+      "test_mse": {
+        "q1": 2.564163500140243e-33,
+        "median": 0.011343125288818786,
+        "q3": 0.0853477148020218
+      },
+      "test_rmse": {
+        "q1": 5.018195648244891e-17,
+        "median": 0.09937016322801245,
+        "q3": 0.29132205350342216
+      },
+      "extrap_mse": {
+        "q1": 6.973487993138753e-32,
+        "median": 0.4536412452440515,
+        "q3": 5.694757446214574
+      },
+      "elapsed_seconds": {
+        "q1": 0.20093150000025162,
+        "median": 0.28511294999998427,
+        "q3": 0.33322372500003894
+      },
+      "fitness_evaluations": {
+        "q1": 3000.0,
+        "median": 3000.0,
+        "q3": 3000.0
+      },
+      "semantic_probes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "context_passes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "node_sample_evaluations": {
+        "q1": 1846688.0,
+        "median": 2606976.0,
+        "q3": 3140768.0
+      },
+      "nodes": {
+        "q1": 5.25,
+        "median": 6.5,
+        "q3": 9.5
+      },
+      "improving_offspring": {
+        "q1": 18.25,
+        "median": 29.5,
+        "q3": 46.0
+      },
+      "duplicate_offspring": {
+        "q1": 494.75,
+        "median": 570.5,
+        "q3": 931.0
+      },
+      "guidance_seconds": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      }
+    },
+    {
+      "task": "additive",
+      "method": "residual_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.017544773538250225,
+        "median": 0.0791239804635259,
+        "q3": 0.14910219455319937
+      },
+      "test_mse": {
+        "q1": 0.023844000704046797,
+        "median": 0.09509869235033172,
+        "q3": 0.18495148026119024
+      },
+      "test_rmse": {
+        "q1": 0.11832628848362362,
+        "median": 0.30828799873443724,
+        "q3": 0.42623903139190944
+      },
+      "extrap_mse": {
+        "q1": 1.3099277804086642,
+        "median": 4.885118949838511,
+        "q3": 6.158498139711534
+      },
+      "elapsed_seconds": {
+        "q1": 0.07697280000024875,
+        "median": 0.11247320000006766,
+        "q3": 0.19675315000006321
+      },
+      "fitness_evaluations": {
+        "q1": 672.0,
+        "median": 685.0,
+        "q3": 687.25
+      },
+      "semantic_probes": {
+        "q1": 1849.75,
+        "median": 1852.0,
+        "q3": 1862.25
+      },
+      "context_passes": {
+        "q1": 463.0,
+        "median": 463.0,
+        "q3": 465.75
+      },
+      "node_sample_evaluations": {
+        "q1": 662880.0,
+        "median": 1247040.0,
+        "q3": 1789664.0
+      },
+      "nodes": {
+        "q1": 2.0,
+        "median": 5.0,
+        "q3": 6.0
+      },
+      "improving_offspring": {
+        "q1": 14.0,
+        "median": 27.0,
+        "q3": 32.75
+      },
+      "duplicate_offspring": {
+        "q1": 260.0,
+        "median": 265.0,
+        "q3": 414.75
+      },
+      "guidance_seconds": {
+        "q1": 0.03677847500364351,
+        "median": 0.07096595000075467,
+        "q3": 0.143636400004425
+      }
+    },
+    {
+      "task": "additive",
+      "method": "shuffled_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.013763591018944615,
+        "median": 0.08058781245730731,
+        "q3": 0.09753404913544172
+      },
+      "test_mse": {
+        "q1": 0.014925704510063574,
+        "median": 0.09111444910692999,
+        "q3": 0.10106170978195933
+      },
+      "test_rmse": {
+        "q1": 0.08070791574800733,
+        "median": 0.30181385224834556,
+        "q3": 0.3178526275461028
+      },
+      "extrap_mse": {
+        "q1": 1.3032960595983667,
+        "median": 4.641176957439441,
+        "q3": 5.781647956312967
+      },
+      "elapsed_seconds": {
+        "q1": 0.08939312499990137,
+        "median": 0.15137649999996938,
+        "q3": 0.20702554999991207
+      },
+      "fitness_evaluations": {
+        "q1": 676.25,
+        "median": 682.5,
+        "q3": 685.0
+      },
+      "semantic_probes": {
+        "q1": 1852.0,
+        "median": 1854.0,
+        "q3": 1859.0
+      },
+      "context_passes": {
+        "q1": 463.0,
+        "median": 463.5,
+        "q3": 464.75
+      },
+      "node_sample_evaluations": {
+        "q1": 713408.0,
+        "median": 1242496.0,
+        "q3": 1718976.0
+      },
+      "nodes": {
+        "q1": 4.0,
+        "median": 5.5,
+        "q3": 10.5
+      },
+      "improving_offspring": {
+        "q1": 17.5,
+        "median": 24.0,
+        "q3": 38.75
+      },
+      "duplicate_offspring": {
+        "q1": 219.25,
+        "median": 263.5,
+        "q3": 378.75
+      },
+      "guidance_seconds": {
+        "q1": 0.04557867500000157,
+        "median": 0.09312089999707496,
+        "q3": 0.15467724999416532
+      }
+    },
+    {
+      "task": "interaction",
+      "method": "gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.0,
+        "median": 1.7188291456074574e-33,
+        "q3": 0.025000237436912855
+      },
+      "test_mse": {
+        "q1": 0.0,
+        "median": 1.8606535607152716e-33,
+        "q3": 0.023755182047883617
+      },
+      "test_rmse": {
+        "q1": 0.0,
+        "median": 3.0501258668416225e-17,
+        "q3": 0.1348267458023717
+      },
+      "extrap_mse": {
+        "q1": 0.0,
+        "median": 2.726770735715444e-32,
+        "q3": 4.031143255734223
+      },
+      "elapsed_seconds": {
+        "q1": 0.20205984999995508,
+        "median": 0.23353470000006382,
+        "q3": 0.29587342499996794
+      },
+      "fitness_evaluations": {
+        "q1": 3000.0,
+        "median": 3000.0,
+        "q3": 3000.0
+      },
+      "semantic_probes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "context_passes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "node_sample_evaluations": {
+        "q1": 1852704.0,
+        "median": 2010688.0,
+        "q3": 2310560.0
+      },
+      "nodes": {
+        "q1": 6.0,
+        "median": 6.0,
+        "q3": 8.75
+      },
+      "improving_offspring": {
+        "q1": 24.0,
+        "median": 44.0,
+        "q3": 62.5
+      },
+      "duplicate_offspring": {
+        "q1": 584.5,
+        "median": 609.0,
+        "q3": 665.75
+      },
+      "guidance_seconds": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      }
+    },
+    {
+      "task": "interaction",
+      "method": "residual_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.10338094240180759,
+        "median": 0.10631606694645329,
+        "q3": 0.10758541790076034
+      },
+      "test_mse": {
+        "q1": 0.10594138484583368,
+        "median": 0.10594138484583368,
+        "q3": 0.10628633558866607
+      },
+      "test_rmse": {
+        "q1": 0.3254863819667939,
+        "median": 0.3254863819667939,
+        "q3": 0.3260157085067182
+      },
+      "extrap_mse": {
+        "q1": 5.352167261853915,
+        "median": 5.384848354205616,
+        "q3": 5.384848354205616
+      },
+      "elapsed_seconds": {
+        "q1": 0.08606925000003685,
+        "median": 0.09831430000008368,
+        "q3": 0.13698135000015554
+      },
+      "fitness_evaluations": {
+        "q1": 672.0,
+        "median": 679.0,
+        "q3": 682.25
+      },
+      "semantic_probes": {
+        "q1": 1853.75,
+        "median": 1856.5,
+        "q3": 1862.25
+      },
+      "context_passes": {
+        "q1": 464.0,
+        "median": 464.5,
+        "q3": 465.75
+      },
+      "node_sample_evaluations": {
+        "q1": 948320.0,
+        "median": 1090944.0,
+        "q3": 1391072.0
+      },
+      "nodes": {
+        "q1": 3.0,
+        "median": 4.0,
+        "q3": 7.25
+      },
+      "improving_offspring": {
+        "q1": 20.25,
+        "median": 28.0,
+        "q3": 41.75
+      },
+      "duplicate_offspring": {
+        "q1": 276.25,
+        "median": 320.0,
+        "q3": 352.0
+      },
+      "guidance_seconds": {
+        "q1": 0.049816675001920885,
+        "median": 0.06184784999959447,
+        "q3": 0.09089140000071438
+      }
+    },
+    {
+      "task": "interaction",
+      "method": "shuffled_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.00033112715618376787,
+        "median": 0.05413583658115293,
+        "q3": 0.10758541790076034
+      },
+      "test_mse": {
+        "q1": 0.00033842611253659865,
+        "median": 0.05466350953158315,
+        "q3": 0.10594138484583368
+      },
+      "test_rmse": {
+        "q1": 0.009198180696972074,
+        "median": 0.19183629247383888,
+        "q3": 0.3254863819667939
+      },
+      "extrap_mse": {
+        "q1": 0.09389177238414831,
+        "median": 3.120970978261662,
+        "q3": 5.384848354205616
+      },
+      "elapsed_seconds": {
+        "q1": 0.09154750000016065,
+        "median": 0.12719510000010814,
+        "q3": 0.13742997500003185
+      },
+      "fitness_evaluations": {
+        "q1": 680.0,
+        "median": 688.0,
+        "q3": 694.5
+      },
+      "semantic_probes": {
+        "q1": 1844.25,
+        "median": 1849.0,
+        "q3": 1856.0
+      },
+      "context_passes": {
+        "q1": 461.25,
+        "median": 463.0,
+        "q3": 464.0
+      },
+      "node_sample_evaluations": {
+        "q1": 943360.0,
+        "median": 1277696.0,
+        "q3": 1363552.0
+      },
+      "nodes": {
+        "q1": 3.0,
+        "median": 5.5,
+        "q3": 6.0
+      },
+      "improving_offspring": {
+        "q1": 11.25,
+        "median": 14.5,
+        "q3": 21.75
+      },
+      "duplicate_offspring": {
+        "q1": 257.5,
+        "median": 264.0,
+        "q3": 272.75
+      },
+      "guidance_seconds": {
+        "q1": 0.05638042500163465,
+        "median": 0.08164579999629495,
+        "q3": 0.0923088999935544
+      }
+    },
+    {
+      "task": "composition",
+      "method": "gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "test_mse": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "test_rmse": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "extrap_mse": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "elapsed_seconds": {
+        "q1": 0.17720504999988407,
+        "median": 0.1912433999998484,
+        "q3": 0.22346022500016716
+      },
+      "fitness_evaluations": {
+        "q1": 3000.0,
+        "median": 3000.0,
+        "q3": 3000.0
+      },
+      "semantic_probes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "context_passes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "node_sample_evaluations": {
+        "q1": 1663872.0,
+        "median": 1672128.0,
+        "q3": 1703008.0
+      },
+      "nodes": {
+        "q1": 4.0,
+        "median": 4.0,
+        "q3": 4.0
+      },
+      "improving_offspring": {
+        "q1": 11.25,
+        "median": 13.0,
+        "q3": 16.75
+      },
+      "duplicate_offspring": {
+        "q1": 879.25,
+        "median": 894.5,
+        "q3": 900.75
+      },
+      "guidance_seconds": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      }
+    },
+    {
+      "task": "composition",
+      "method": "residual_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.00012428338759578255
+      },
+      "test_mse": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.00014445353003996562
+      },
+      "test_rmse": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.01201888222922438
+      },
+      "extrap_mse": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 1.5182765362187265
+      },
+      "elapsed_seconds": {
+        "q1": 0.0929661750002424,
+        "median": 0.10236780000013823,
+        "q3": 0.11066430000005312
+      },
+      "fitness_evaluations": {
+        "q1": 677.75,
+        "median": 680.0,
+        "q3": 689.0
+      },
+      "semantic_probes": {
+        "q1": 1848.75,
+        "median": 1856.0,
+        "q3": 1857.5
+      },
+      "context_passes": {
+        "q1": 462.25,
+        "median": 464.0,
+        "q3": 464.75
+      },
+      "node_sample_evaluations": {
+        "q1": 1118272.0,
+        "median": 1157824.0,
+        "q3": 1165824.0
+      },
+      "nodes": {
+        "q1": 4.0,
+        "median": 4.0,
+        "q3": 4.0
+      },
+      "improving_offspring": {
+        "q1": 10.25,
+        "median": 13.0,
+        "q3": 17.25
+      },
+      "duplicate_offspring": {
+        "q1": 358.5,
+        "median": 367.0,
+        "q3": 375.0
+      },
+      "guidance_seconds": {
+        "q1": 0.057428425002854055,
+        "median": 0.06196794999891608,
+        "q3": 0.0688574500049981
+      }
+    },
+    {
+      "task": "composition",
+      "method": "shuffled_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.0,
+        "median": 6.214169379789128e-05,
+        "q3": 0.00012428338759578255
+      },
+      "test_mse": {
+        "q1": 0.0,
+        "median": 7.222676501998281e-05,
+        "q3": 0.00014445353003996562
+      },
+      "test_rmse": {
+        "q1": 0.0,
+        "median": 0.00600944111461219,
+        "q3": 0.01201888222922438
+      },
+      "extrap_mse": {
+        "q1": 0.0,
+        "median": 0.7591382681093632,
+        "q3": 1.5182765362187265
+      },
+      "elapsed_seconds": {
+        "q1": 0.10005202499985444,
+        "median": 0.10324460000015279,
+        "q3": 0.11500557499994102
+      },
+      "fitness_evaluations": {
+        "q1": 680.0,
+        "median": 688.0,
+        "q3": 693.0
+      },
+      "semantic_probes": {
+        "q1": 1845.0,
+        "median": 1849.5,
+        "q3": 1856.0
+      },
+      "context_passes": {
+        "q1": 462.0,
+        "median": 462.5,
+        "q3": 464.0
+      },
+      "node_sample_evaluations": {
+        "q1": 1074976.0,
+        "median": 1104192.0,
+        "q3": 1136096.0
+      },
+      "nodes": {
+        "q1": 4.0,
+        "median": 4.0,
+        "q3": 4.0
+      },
+      "improving_offspring": {
+        "q1": 10.25,
+        "median": 15.5,
+        "q3": 17.75
+      },
+      "duplicate_offspring": {
+        "q1": 354.5,
+        "median": 362.0,
+        "q3": 382.5
+      },
+      "guidance_seconds": {
+        "q1": 0.061314550003885415,
+        "median": 0.06569524999895293,
+        "q3": 0.07050247500239948
+      }
+    },
+    {
+      "task": "noisy_additive",
+      "method": "gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.008851453364816691,
+        "median": 0.009784688605987253,
+        "q3": 0.07204949800238689
+      },
+      "test_mse": {
+        "q1": 0.0,
+        "median": 0.0006696759737417676,
+        "q3": 0.06999805405180337
+      },
+      "test_rmse": {
+        "q1": 0.0,
+        "median": 0.01829857882106924,
+        "q3": 0.24812137930394018
+      },
+      "extrap_mse": {
+        "q1": 0.0,
+        "median": 0.025108722822347565,
+        "q3": 3.9779936008393877
+      },
+      "elapsed_seconds": {
+        "q1": 0.2150352500000281,
+        "median": 0.2541828500000065,
+        "q3": 0.32932274999984656
+      },
+      "fitness_evaluations": {
+        "q1": 3000.0,
+        "median": 3000.0,
+        "q3": 3000.0
+      },
+      "semantic_probes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "context_passes": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      },
+      "node_sample_evaluations": {
+        "q1": 2355616.0,
+        "median": 2457792.0,
+        "q3": 3189056.0
+      },
+      "nodes": {
+        "q1": 6.0,
+        "median": 6.0,
+        "q3": 11.75
+      },
+      "improving_offspring": {
+        "q1": 46.5,
+        "median": 60.0,
+        "q3": 83.0
+      },
+      "duplicate_offspring": {
+        "q1": 486.75,
+        "median": 502.0,
+        "q3": 544.0
+      },
+      "guidance_seconds": {
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0
+      }
+    },
+    {
+      "task": "noisy_additive",
+      "method": "residual_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.009660262714967687,
+        "median": 0.058799527498542906,
+        "q3": 0.11029507428400169
+      },
+      "test_mse": {
+        "q1": 0.0009228162577724638,
+        "median": 0.05029742022478081,
+        "q3": 0.09978217392338581
+      },
+      "test_rmse": {
+        "q1": 0.015188945468435784,
+        "median": 0.1860245865478544,
+        "q3": 0.3158726131242599
+      },
+      "extrap_mse": {
+        "q1": 0.09083866206849217,
+        "median": 2.6724695669715697,
+        "q3": 5.416906070277233
+      },
+      "elapsed_seconds": {
+        "q1": 0.1215712750001785,
+        "median": 0.14306424999995215,
+        "q3": 0.16310580000015307
+      },
+      "fitness_evaluations": {
+        "q1": 671.75,
+        "median": 681.5,
+        "q3": 688.75
+      },
+      "semantic_probes": {
+        "q1": 1849.0,
+        "median": 1854.5,
+        "q3": 1862.5
+      },
+      "context_passes": {
+        "q1": 462.25,
+        "median": 464.0,
+        "q3": 465.75
+      },
+      "node_sample_evaluations": {
+        "q1": 1419264.0,
+        "median": 1447616.0,
+        "q3": 1626464.0
+      },
+      "nodes": {
+        "q1": 6.0,
+        "median": 6.0,
+        "q3": 11.25
+      },
+      "improving_offspring": {
+        "q1": 37.25,
+        "median": 47.0,
+        "q3": 65.0
+      },
+      "duplicate_offspring": {
+        "q1": 197.5,
+        "median": 235.0,
+        "q3": 256.5
+      },
+      "guidance_seconds": {
+        "q1": 0.08138199999825702,
+        "median": 0.10158605000083298,
+        "q3": 0.10855604999596835
+      }
+    },
+    {
+      "task": "noisy_additive",
+      "method": "shuffled_gp",
+      "n": 10,
+      "train_mse": {
+        "q1": 0.012086690765420672,
+        "median": 0.10255076823441317,
+        "q3": 0.11000675264439076
+      },
+      "test_mse": {
+        "q1": 0.003691265031089855,
+        "median": 0.0974155657137557,
+        "q3": 0.1036744240259061
+      },
+      "test_rmse": {
+        "q1": 0.060755781873743135,
+        "median": 0.31209968990528514,
+        "q3": 0.32198312850205524
+      },
+      "extrap_mse": {
+        "q1": 0.3633546482739687,
+        "median": 5.534153560502497,
+        "q3": 6.150815947141487
+      },
+      "elapsed_seconds": {
+        "q1": 0.15308200000015404,
+        "median": 0.16625360000011824,
+        "q3": 0.18217612500006908
+      },
+      "fitness_evaluations": {
+        "q1": 677.0,
+        "median": 685.5,
+        "q3": 690.0
+      },
+      "semantic_probes": {
+        "q1": 1848.0,
+        "median": 1851.0,
+        "q3": 1858.25
+      },
+      "context_passes": {
+        "q1": 462.0,
+        "median": 463.5,
+        "q3": 464.75
+      },
+      "node_sample_evaluations": {
+        "q1": 1440608.0,
+        "median": 1596672.0,
+        "q3": 1638976.0
+      },
+      "nodes": {
+        "q1": 6.0,
+        "median": 6.5,
+        "q3": 10.25
+      },
+      "improving_offspring": {
+        "q1": 25.5,
+        "median": 36.5,
+        "q3": 48.0
+      },
+      "duplicate_offspring": {
+        "q1": 198.75,
+        "median": 203.5,
+        "q3": 251.0
+      },
+      "guidance_seconds": {
+        "q1": 0.10837174999915078,
+        "median": 0.11486405000277955,
+        "q3": 0.12246980000213625
+      }
+    }
+  ],
+  "paired": [
+    {
+      "task": "polynomial",
+      "method": "residual_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": -6.403133018916947e-05,
+      "wins": 5,
+      "ties": 2,
+      "losses": 3
+    },
+    {
+      "task": "polynomial",
+      "method": "shuffled_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": 0.02969612499725175,
+      "wins": 1,
+      "ties": 0,
+      "losses": 9
+    },
+    {
+      "task": "additive",
+      "method": "residual_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": 0.0018633433270806071,
+      "wins": 2,
+      "ties": 3,
+      "losses": 5
+    },
+    {
+      "task": "additive",
+      "method": "shuffled_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": 0.005738230076627485,
+      "wins": 2,
+      "ties": 2,
+      "losses": 6
+    },
+    {
+      "task": "interaction",
+      "method": "residual_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": 0.09010960038837477,
+      "wins": 1,
+      "ties": 1,
+      "losses": 8
+    },
+    {
+      "task": "interaction",
+      "method": "shuffled_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": 0.002354658610348989,
+      "wins": 2,
+      "ties": 2,
+      "losses": 6
+    },
+    {
+      "task": "composition",
+      "method": "residual_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": 0.0,
+      "wins": 0,
+      "ties": 6,
+      "losses": 4
+    },
+    {
+      "task": "composition",
+      "method": "shuffled_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": 7.222676501998281e-05,
+      "wins": 0,
+      "ties": 5,
+      "losses": 5
+    },
+    {
+      "task": "noisy_additive",
+      "method": "residual_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": 0.001809068045230268,
+      "wins": 3,
+      "ties": 2,
+      "losses": 5
+    },
+    {
+      "task": "noisy_additive",
+      "method": "shuffled_gp",
+      "paired_seeds": 10,
+      "median_test_mse_difference": 0.051402375893915844,
+      "wins": 2,
+      "ties": 2,
+      "losses": 6
+    }
+  ]
+}

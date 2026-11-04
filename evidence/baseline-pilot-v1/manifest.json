@@ -1,0 +1,56 @@
+{
+  "started_utc": "2026-11-04T12:59:41.514879+00:00",
+  "specification": {
+    "tasks": [
+      "polynomial",
+      "additive",
+      "interaction",
+      "composition",
+      "noisy_additive"
+    ],
+    "methods": [
+      "gp"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "data": {
+      "seed": 20261104,
+      "n_train": 128,
+      "n_test": 512
+    },
+    "gp": {
+      "budget": 1200,
+      "population": 64
+    }
+  },
+  "git": {
+    "commit": "e17274c5ecdd360d7806e532f78d62e4a5cef4a2",
+    "dirty": ""
+  },
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+  "source_sha256": {
+    "data.py": "5a6ee1d14cc555282537c31e1dfc69dcd8b406cad46d4fa0c43ae74cdde33684",
+    "experiment.py": "0fcdc07cbc22bb80504b60697930e2576a96ebf638b42329ef4272e8429020cd",
+    "gp.py": "f98e3003ee70182e7b8f79cfc2670c59812b4765730c4cfb7f3ee05b1b71d949",
+    "tree.py": "86e1ab7aa168d2be25964ac9b111f42d590abd38eea3591a1d3b399f5d0b35e2",
+    "__init__.py": "6a49e267cab697c7d05fc96f5f58fa377c31da86ad631b16eb42324f7f6b04ea",
+    "run.py": "1f04b8c2a1c66f7968f4381f8d064d29c3994d32f2205e29473e3fb9cfaddc72"
+  },
+  "budget_unit": "one training-set vector evaluation: full fitness, donor probe, or context pass",
+  "timing": "perf_counter inside search; excludes data generation, final holdouts, reporting, tests",
+  "datasets": {
+    "polynomial": "3836e3c87258a9aef6be3276e87c2e8ebed713baa6eadb4613fab4617d6f0bf0",
+    "additive": "e1595cd441c2884a8bd7b1ce9520768d2440a8b39e1d4fc4c887540f1381f584",
+    "interaction": "f301c70a515eee4e0ed7ff5b173eff7c558cc2db0b2f994434620296186bcbcd",
+    "composition": "ebc4819f85c1264a2f3035d0e82c8bee625a9df66e98cf2b4df73fb8cd7c2c83",
+    "noisy_additive": "ccbc896a300e614762adf3b76ad6ba0aa8d73a78e6d0dd623025b28617d6d81b"
+  },
+  "finished_utc": "2026-11-04T12:59:43.521152+00:00"
+}
