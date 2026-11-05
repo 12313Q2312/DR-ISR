@@ -89,4 +89,15 @@ lines += ["", f"全部端到端计时之和约 **{sum(r['total_seconds'] for r i
           "限制包括：单一固定数据划分、每任务仅五个种子、共享固定学习率和有限更新数、参数上限而非精确匹配、"
           "结构搜索存在代理目标与网络训练目标的差异；没有多数据划分验证、统计检验、等时预算、全面调参、干净真函数或外推测试。"
           "不从结果挑选种子，不因某个模型落后而事后换配置。下一轮应针对已记录的失败机制单独立实验。"]
+receipt_path=Path("docs/neural_ci_verification.json")
+if receipt_path.exists():
+    receipt=json.loads(receipt_path.read_text(encoding="utf-8"))
+    lines += ["", "## 最终交付复核", "",
+              f"核验日期：{receipt['verified_on_client_date']}。已测实现提交 `{receipt['tested_commit']}`。"
+              f"[GitHub 自动验证记录]({receipt['workflow_url']}) 的原有 GP 与新增神经网络两个任务均成功。", "",
+              f"9 项 GP 测试、5 项神经网络测试、{receipt['archived_models']} 个归档模型的 "
+              f"{receipt['archived_error_metric_replays']} 项误差回放全部通过。Linux 对 Windows 归档的最大逐点预测绝对偏差为 "
+              f"`{receipt['maximum_test_prediction_absolute_difference']:.8g}`（归一化输出），在记录的单精度容差内；实验指标未改动。", "",
+              "完整核验摘要和原始日志中的通过记录保存在 [neural_ci_verification.json](neural_ci_verification.json)。"
+              "本节及相关交付记录的后续更新只涉及文档，不改变上述已测实现和模型。"]
 Path("docs/neural_acceptance_zh.md").write_text("\n".join(lines)+"\n",encoding="utf-8",newline="\n")

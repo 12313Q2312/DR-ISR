@@ -10,6 +10,8 @@
 
 **400 次训练与 1200 项模型误差回放已完成。** TN-DR 对 KAN：低噪声 14 胜/36 负，高噪声 40 胜/10 负；TN-DR 对 TN-VSR 合计 33 胜/42 平/25 负。结果不支持稳定的整体改进，所有种子、模型权重和失败模式均保留。
 
+[GitHub Linux 完整验证已通过](https://github.com/12313Q2312/DR-ISR/actions/runs/41844951945)：14 项测试、快速实验和全部 400 个归档模型回放。[最终核验摘要](docs/neural_ci_verification.json)记录了已测提交与跨平台浮点偏差。
+
 - [中文神经网络验收报告](docs/neural_acceptance_zh.md)
 - [全部端到端实测结果](evidence/neural-v1/report.md)
 - [固定配置与环境、源码指纹](evidence/neural-v1/manifest.json)

@@ -1,0 +1,38 @@
+{
+  "verified_on_client_date": "2026-11-05",
+  "repository": "12313Q2312/DR-ISR",
+  "tested_commit": "243769f4fbd29ba1db7396e5c01b29e463ef0b44",
+  "tested_tree": "53d507d1cf286202353654189fbe44e7249a386b",
+  "workflow_run_id": 41844951945,
+  "workflow_url": "https://github.com/12313Q2312/DR-ISR/actions/runs/41844951945",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "verify",
+      "id": 126625921176,
+      "conclusion": "success"
+    },
+    {
+      "name": "neural-verify",
+      "id": 126625920533,
+      "conclusion": "success"
+    }
+  ],
+  "unit_tests": {
+    "gp": 9,
+    "neural": 5
+  },
+  "archived_models": 400,
+  "archived_error_metric_replays": 1200,
+  "smoke_neural_models": 8,
+  "smoke_neural_error_metric_replays": 24,
+  "maximum_test_prediction_absolute_difference": 0.000003606081,
+  "prediction_rtol": 0.00001,
+  "prediction_atol": 0.00001,
+  "experiment_metrics_unchanged": true,
+  "original_log_pass_lines": [
+    "2026-11-04T14:11:14.5428753Z Ran 5 tests in 0.117s",
+    "2026-11-04T14:11:15.9220692Z PASS: 8 models, 24 metric replays, splits/scalers/search budgets/parameter ceilings and 6 file checksums; max prediction abs difference=0",
+    "2026-11-04T14:11:18.0119635Z PASS: 400 models, 1200 metric replays, splits/scalers/search budgets/parameter ceilings and 31 file checksums; max prediction abs difference=3.606081e-06"
+  ]
+}
