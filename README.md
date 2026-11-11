@@ -4,6 +4,8 @@
 
 当前包含两部分：v0.1 的表达式树 GP 搜索机制对照，以及 v0.2 的受控 TN / KAN 端到端实验。**项目用于验证科研假设，不预设残差引导有效；尚未实现完整的自适应文法和动态记忆系统。**
 
+[快速运行](#一键运行) · [端到端实验报告](docs/neural_acceptance_zh.md) · [搜索机制实验报告](docs/acceptance_zh.md)
+
 ## v0.2：端到端 TN / KAN 实验
 
 新增入口 `run_neural.py`：公式搜索 → 多项式神经元参数化 → 网络训练 → 独立测试；比较 TN-VSR（受控复现）、TN-DR、B-spline KAN（efficient-kan）和 MLP。使用作者 20 组合成数据、5 个种子，共 400 次训练。方法边界、固定配置与计费规则见 [神经网络实验协议](docs/neural_protocol.md)。这不是论文 16 个真实数据集的完整复现。
@@ -24,6 +26,8 @@ python run_neural.py --config configs/neural_smoke.json
 python verify_neural.py evidence/neural-v1
 ```
 
+![四种方法在不同噪声水平下的测试误差](evidence/neural-v1/test_errors.png)
+
 ## v0.1：搜索机制实验
 
 已完成 **150 次**主实验（5 任务 × 10 种子 × 3 组），每次 3000 个计费求值单位。残差引导对普通 GP 的成对测试误差为 **11 胜 / 14 平 / 25 负**，本版**未显示整体优势**。不根据结果删掉失败种子。
@@ -40,11 +44,12 @@ python verify_neural.py evidence/neural-v1
 需要 Python 3.11+。已在 Windows / Python 3.14 验证；不需要 GPU、API Key、付费服务或下载数据集。测试用标准库 unittest。
 
 ```powershell
-# 在仓库目录打开终端。新环境可放 G 盘（已有依赖可跳过安装）。
-py -m venv G:\tools\venvs\dr-isr
-G:\tools\venvs\dr-isr\Scripts\python.exe -m pip install -r requirements.txt
-G:\tools\venvs\dr-isr\Scripts\python.exe run.py
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe run.py --config configs/smoke.json
 ```
+
+Linux 或 macOS 可使用 `.venv/bin/python` 运行对应命令。
 
 如果当前 Python 已有所需依赖，只需：
 
