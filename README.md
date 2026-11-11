@@ -17,13 +17,7 @@
 - [固定配置与环境、源码指纹](evidence/neural-v1/manifest.json)
 - [测试误差图](evidence/neural-v1/test_errors.png)与[计算代价图](evidence/neural-v1/cost_and_capacity.png)
 
-本机可复用已有 Python 3.10 / PyTorch 1.13.1 环境，无需安装：
-
-```powershell
-& 'G:\Task_based_neurons\.venv\Scripts\python.exe' run_neural.py
-```
-
-其他电脑：在 Python 3.10 环境安装 `requirements-neural.txt`，再运行 `python run_neural.py`。此环境与下面 GP 演示使用的 Python 3.14 环境分开；无需执行 `pip install .`。作者数据已按来源和哈希归档在 `neural_data/`；原始 G 盘项目不修改。结果默认写入新的 `results/neural-时间戳` 目录。
+复现神经网络实验需要 Python 3.10。使用已有环境或新建虚拟环境，安装 `requirements-neural.txt`。作者数据的来源和哈希见 `neural_data/`，结果写入新的 `results/neural-时间戳` 目录。
 
 ```powershell
 python run_neural.py --config configs/neural_smoke.json
